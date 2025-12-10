@@ -15,4 +15,8 @@ public class AddressBook {
                         contact.getCity() + ", " +
                         contact.getPhoneNumber());
     }
+    public Contact getContact()
+    {
+        return this.contact;
+    }
 }
