@@ -7,7 +7,8 @@ public class Contact {
     String phoneNumber;
     String zip;
     String email;
-    public Contact(){
+    public Contact()
+    {
 
     }
     public Contact(String firstName, String lastName, String address,
